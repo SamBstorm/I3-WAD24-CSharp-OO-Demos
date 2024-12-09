@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo01-Namespace", "Demo01-Namespace\Demo01-Namespace.csproj", "{B91F68BD-7A56-4455-8ACF-4FC657DB8EB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo01-Namespace", "Demo01-Namespace\Demo01-Namespace.csproj", "{B91F68BD-7A56-4455-8ACF-4FC657DB8EB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo02-Static", "Demo02-Static\Demo02-Static.csproj", "{50958755-3C82-45AB-AABB-829CF8AF76F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo02-Static", "Demo02-Static\Demo02-Static.csproj", "{50958755-3C82-45AB-AABB-829CF8AF76F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo03-Encapsulation", "Demo03-Encapsulation\Demo03-Encapsulation.csproj", "{2AE9F7B3-086B-454B-AEC3-7CEE500CBACE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo03-Encapsulation", "Demo03-Encapsulation\Demo03-Encapsulation.csproj", "{2AE9F7B3-086B-454B-AEC3-7CEE500CBACE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo04-Constructeur", "Demo04-Constructeur\Demo04-Constructeur.csproj", "{B92255DD-3E38-42BC-A375-01466D951AB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo04-Constructeur", "Demo04-Constructeur\Demo04-Constructeur.csproj", "{B92255DD-3E38-42BC-A375-01466D951AB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo05-Indexeur", "Demo05-Indexeur\Demo05-Indexeur.csproj", "{CE062621-6898-48CE-AB59-B3D41C9D7426}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B92255DD-3E38-42BC-A375-01466D951AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B92255DD-3E38-42BC-A375-01466D951AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B92255DD-3E38-42BC-A375-01466D951AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE062621-6898-48CE-AB59-B3D41C9D7426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE062621-6898-48CE-AB59-B3D41C9D7426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE062621-6898-48CE-AB59-B3D41C9D7426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE062621-6898-48CE-AB59-B3D41C9D7426}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
