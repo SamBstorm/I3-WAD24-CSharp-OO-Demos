@@ -21,5 +21,21 @@ namespace Demo07_Heritage.Models
         {
             EstOccupe = true;
         }
+
+        public override string SePresenter()
+        {
+            //return base.SePresenter();
+            return $"Voici {FirstName} {LastName}, il travaille pour le département \"{Departement}\". Il est né le {BirthDate}.";
+        }
+        public new string SePresenter2()
+        {
+            //return base.SePresenter();
+            return $"Voici {FirstName} {LastName}, il travaille pour le département \"{Departement}\". Il est né le {BirthDate}.";
+        }
+
+        public override string ToString()
+        {
+            return $"Employé : {base.ToString()}";
+        }
     }
 }

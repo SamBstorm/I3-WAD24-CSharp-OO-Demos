@@ -10,7 +10,7 @@ namespace Demo07_Heritage.Models
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        private DateTime BirthDate { get; set; }
+        protected DateTime BirthDate { get; private set; }
 
         public Personne(string firstName, string lastName, DateTime birthDate) {
             FirstName = firstName;
@@ -18,9 +18,19 @@ namespace Demo07_Heritage.Models
             BirthDate = birthDate;
         }
 
-        public string SePresenter()
+        public virtual string SePresenter()
         {
             return $"Voici {FirstName} {LastName}, il est né le {BirthDate.ToShortDateString()}";
+        }
+
+        public string SePresenter2()
+        {
+            return $"Voici {FirstName} {LastName}, il est né le {BirthDate.ToShortDateString()}";
+        }
+
+        public override string ToString()
+        {
+            return SePresenter();
         }
     }
 }
