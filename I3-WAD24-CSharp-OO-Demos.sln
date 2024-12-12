@@ -11,13 +11,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo03-Encapsulation", "Dem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo04-Constructeur", "Demo04-Constructeur\Demo04-Constructeur.csproj", "{B92255DD-3E38-42BC-A375-01466D951AB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo05-Indexeur", "Demo05-Indexeur\Demo05-Indexeur.csproj", "{CE062621-6898-48CE-AB59-B3D41C9D7426}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo05-Indexeur", "Demo05-Indexeur\Demo05-Indexeur.csproj", "{CE062621-6898-48CE-AB59-B3D41C9D7426}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo06-Operators", "Demo06-Operators\Demo06-Operators.csproj", "{3B3C4DA4-AFDB-4647-9C57-CFE732AD2320}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo06-Operators", "Demo06-Operators\Demo06-Operators.csproj", "{3B3C4DA4-AFDB-4647-9C57-CFE732AD2320}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo07-Heritage", "Demo07-Heritage\Demo07-Heritage.csproj", "{25C199C2-25DD-44B3-B8BA-98C7FB350D53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo07-Heritage", "Demo07-Heritage\Demo07-Heritage.csproj", "{25C199C2-25DD-44B3-B8BA-98C7FB350D53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo08-Abstract", "Demo08-Abstract\Demo08-Abstract.csproj", "{641C23FB-5F4E-45DB-AE53-71CEEE7007C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo08-Abstract", "Demo08-Abstract\Demo08-Abstract.csproj", "{641C23FB-5F4E-45DB-AE53-71CEEE7007C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo09-Interfaces", "Demo09-Interfaces\Demo09-Interfaces.csproj", "{94773058-F3CD-47DE-80BB-974CB5CABB5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo10-Abstraction", "Demo10-Abstraction\Demo10-Abstraction.csproj", "{C6A43A62-D613-43D8-89EC-C799455E999B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo11-InterfaceFiltre", "Demo11-InterfaceFiltre\Demo11-InterfaceFiltre.csproj", "{73F66D18-7B25-4550-8F5F-19EB9FDC65F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +63,18 @@ Global
 		{641C23FB-5F4E-45DB-AE53-71CEEE7007C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{641C23FB-5F4E-45DB-AE53-71CEEE7007C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{641C23FB-5F4E-45DB-AE53-71CEEE7007C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94773058-F3CD-47DE-80BB-974CB5CABB5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94773058-F3CD-47DE-80BB-974CB5CABB5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94773058-F3CD-47DE-80BB-974CB5CABB5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94773058-F3CD-47DE-80BB-974CB5CABB5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A43A62-D613-43D8-89EC-C799455E999B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A43A62-D613-43D8-89EC-C799455E999B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A43A62-D613-43D8-89EC-C799455E999B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A43A62-D613-43D8-89EC-C799455E999B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F66D18-7B25-4550-8F5F-19EB9FDC65F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F66D18-7B25-4550-8F5F-19EB9FDC65F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F66D18-7B25-4550-8F5F-19EB9FDC65F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F66D18-7B25-4550-8F5F-19EB9FDC65F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
