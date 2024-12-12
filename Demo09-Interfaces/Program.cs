@@ -30,6 +30,18 @@ namespace Demo09_Interfaces
             }
 
             choixBateau.Couler();
+
+            Voiture v = new Voiture("ma Ferrari");
+            VehiculeAmphibie va = new VehiculeAmphibie("Crocodile rouge");
+
+            List<IVoiture> parking = new List<IVoiture>();
+            parking.Add(v);
+            parking.Add(va);
+
+            parking[1].Rouler();
+
+            monPort.Add((VehiculeAmphibie)parking[1]);
+            monPort[2].Naviguer();
         }
     }
 }
