@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo10-Abstraction", "Demo1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo11-InterfaceFiltre", "Demo11-InterfaceFiltre\Demo11-InterfaceFiltre.csproj", "{73F66D18-7B25-4550-8F5F-19EB9FDC65F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo12-IDisposable", "Demo12-IDisposable\Demo12-IDisposable.csproj", "{7DAF24E7-1FAA-43E6-81EA-4E306A0B5A1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{73F66D18-7B25-4550-8F5F-19EB9FDC65F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73F66D18-7B25-4550-8F5F-19EB9FDC65F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73F66D18-7B25-4550-8F5F-19EB9FDC65F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DAF24E7-1FAA-43E6-81EA-4E306A0B5A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DAF24E7-1FAA-43E6-81EA-4E306A0B5A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DAF24E7-1FAA-43E6-81EA-4E306A0B5A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DAF24E7-1FAA-43E6-81EA-4E306A0B5A1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
