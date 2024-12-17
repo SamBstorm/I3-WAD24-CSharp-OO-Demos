@@ -26,7 +26,25 @@ namespace Demo16_Delegate03
 
             Console.WriteLine($"Quels produits voulez-vous garder?");
             string productName = Console.ReadLine();
-            Product[] filteredProducts = shopping.FilterProduct(productName);
+            FilterCondition nameCondition = delegate (KeyValuePair<Product, int> stock)
+            {
+                return stock.Key.Name.ToLower().Contains( productName.ToLower() );
+            };
+
+            FilterCondition nameAndAvailableProductCondition = delegate (KeyValuePair<Product, int> stock)
+            {
+                return stock.Key.Name.ToLower().Contains(productName.ToLower()) && stock.Value > 0;
+            };
+
+            decimal minPrice = 0;
+            decimal maxPrice = 10;
+
+            FilterCondition priceCondition = delegate (KeyValuePair<Product, int> stock)
+            {
+                return stock.Key.Price >= minPrice && stock.Key.Price <= maxPrice;
+            };
+
+            Product[] filteredProducts = shopping.FilterProduct(nameAndAvailableProductCondition);
             foreach (Product p in filteredProducts)
             {
                 Console.WriteLine($"- {p.Name} ({p.InventoryCode.ToString().Substring(0, 8)}) {p.Price}€");

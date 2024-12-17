@@ -7,6 +7,7 @@ using System.Xml.Linq;
 
 namespace Demo16_Delegate03.Models
 {
+    public delegate bool FilterCondition(KeyValuePair<Product, int> stock);
     public class Shop
     {
         private Dictionary<Product, int> _products = new Dictionary<Product, int>();
@@ -72,6 +73,19 @@ namespace Demo16_Delegate03.Models
             foreach (KeyValuePair<Product, int> stock in _products)
             {
                 if (stock.Key.Price >= minPrice && stock.Key.Price <= maxPrice)
+                {
+                    products.Add(stock.Key);
+                }
+            }
+            return products.ToArray();
+        }
+
+        public Product[] FilterProduct(FilterCondition filter)
+        {
+            List<Product> products = new List<Product>();
+            foreach (KeyValuePair<Product, int> stock in _products)
+            {
+                if (filter(stock))
                 {
                     products.Add(stock.Key);
                 }
