@@ -19,15 +19,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo07-Heritage", "Demo07-H
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo08-Abstract", "Demo08-Abstract\Demo08-Abstract.csproj", "{641C23FB-5F4E-45DB-AE53-71CEEE7007C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo09-Interfaces", "Demo09-Interfaces\Demo09-Interfaces.csproj", "{94773058-F3CD-47DE-80BB-974CB5CABB5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo09-Interfaces", "Demo09-Interfaces\Demo09-Interfaces.csproj", "{94773058-F3CD-47DE-80BB-974CB5CABB5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo10-Abstraction", "Demo10-Abstraction\Demo10-Abstraction.csproj", "{C6A43A62-D613-43D8-89EC-C799455E999B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo10-Abstraction", "Demo10-Abstraction\Demo10-Abstraction.csproj", "{C6A43A62-D613-43D8-89EC-C799455E999B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo11-InterfaceFiltre", "Demo11-InterfaceFiltre\Demo11-InterfaceFiltre.csproj", "{73F66D18-7B25-4550-8F5F-19EB9FDC65F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo11-InterfaceFiltre", "Demo11-InterfaceFiltre\Demo11-InterfaceFiltre.csproj", "{73F66D18-7B25-4550-8F5F-19EB9FDC65F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo12-IDisposable", "Demo12-IDisposable\Demo12-IDisposable.csproj", "{7DAF24E7-1FAA-43E6-81EA-4E306A0B5A1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo12-IDisposable", "Demo12-IDisposable\Demo12-IDisposable.csproj", "{7DAF24E7-1FAA-43E6-81EA-4E306A0B5A1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo13-Exceptions", "Demo13-Exceptions\Demo13-Exceptions.csproj", "{87336E20-DD25-4879-8B74-9126114D7E6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo13-Exceptions", "Demo13-Exceptions\Demo13-Exceptions.csproj", "{87336E20-DD25-4879-8B74-9126114D7E6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo14-Delegate01", "Demo14-Delegate01\Demo14-Delegate01.csproj", "{91335250-29ED-45A2-B011-38FCEB2900C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{87336E20-DD25-4879-8B74-9126114D7E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87336E20-DD25-4879-8B74-9126114D7E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87336E20-DD25-4879-8B74-9126114D7E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91335250-29ED-45A2-B011-38FCEB2900C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91335250-29ED-45A2-B011-38FCEB2900C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91335250-29ED-45A2-B011-38FCEB2900C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91335250-29ED-45A2-B011-38FCEB2900C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
