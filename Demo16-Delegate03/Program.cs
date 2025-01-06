@@ -44,7 +44,13 @@ namespace Demo16_Delegate03
                 return stock.Key.Price >= minPrice && stock.Key.Price <= maxPrice;
             };
 
-            Product[] filteredProducts = shopping.FilterProduct(nameAndAvailableProductCondition);
+            Console.WriteLine("Quelle catégorie ?");
+            string cat = Console.ReadLine();
+
+            Product[] filteredProducts = shopping.FilterProduct(delegate (KeyValuePair<Product,int> stock)
+            {
+                return stock.Key.Categories.Contains(cat);
+            });
             foreach (Product p in filteredProducts)
             {
                 Console.WriteLine($"- {p.Name} ({p.InventoryCode.ToString().Substring(0, 8)}) {p.Price}€");

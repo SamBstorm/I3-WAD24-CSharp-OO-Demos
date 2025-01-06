@@ -29,11 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo12-IDisposable", "Demo1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo13-Exceptions", "Demo13-Exceptions\Demo13-Exceptions.csproj", "{87336E20-DD25-4879-8B74-9126114D7E6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo14-Delegate01", "Demo14-Delegate01\Demo14-Delegate01.csproj", "{91335250-29ED-45A2-B011-38FCEB2900C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo14-Delegate01", "Demo14-Delegate01\Demo14-Delegate01.csproj", "{91335250-29ED-45A2-B011-38FCEB2900C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo15-Delegate02", "Demo15-Delegate02\Demo15-Delegate02.csproj", "{EA7BFD85-2704-435A-B29F-78E86992D045}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo15-Delegate02", "Demo15-Delegate02\Demo15-Delegate02.csproj", "{EA7BFD85-2704-435A-B29F-78E86992D045}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo16-Delegate03", "Demo16-Delegate03\Demo16-Delegate03.csproj", "{D08A6779-7FCF-40A4-8439-AF5D248C3709}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo16-Delegate03", "Demo16-Delegate03\Demo16-Delegate03.csproj", "{D08A6779-7FCF-40A4-8439-AF5D248C3709}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo17-Event01", "Demo17-Event01\Demo17-Event01.csproj", "{DEDFF05D-39D8-40FA-8856-3DF3DE349BEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{D08A6779-7FCF-40A4-8439-AF5D248C3709}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D08A6779-7FCF-40A4-8439-AF5D248C3709}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D08A6779-7FCF-40A4-8439-AF5D248C3709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEDFF05D-39D8-40FA-8856-3DF3DE349BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEDFF05D-39D8-40FA-8856-3DF3DE349BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEDFF05D-39D8-40FA-8856-3DF3DE349BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEDFF05D-39D8-40FA-8856-3DF3DE349BEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
