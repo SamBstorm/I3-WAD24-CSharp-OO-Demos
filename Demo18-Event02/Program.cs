@@ -1,4 +1,5 @@
-﻿using Demo18_Event02.Models;
+﻿using Demo18_Event02.Handlers;
+using Demo18_Event02.Models;
 
 namespace Demo18_Event02
 {
@@ -14,9 +15,10 @@ namespace Demo18_Event02
 
         }
 
-        static void NotifiedOparetion(string operationName, decimal nouveauSolde)
+        static void NotifiedOparetion(object sender, EventArgs args)
         {
-            Console.WriteLine($"L'opération de {operationName} a été effectué avec succès!\nVotre nouveau solde est de {nouveauSolde} euro(s).");
+            OperationEventArgs opArgs = (OperationEventArgs) args;
+            Console.WriteLine($"L'opération de {opArgs.OperationName} a été effectué avec succès!\nVotre nouveau solde est de {((Compte)sender).Solde} euro(s).");
         }
     }
 }

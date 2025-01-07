@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Demo18_Event02.Handlers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace Demo18_Event02.Models
 {
-    public delegate void OperationHandler(string operationName, decimal nouveauSolde);
+    //public delegate void OperationHandler(string operationName, decimal nouveauSolde);
     public class Compte
     {
-        public event OperationHandler OnOperation;
+        public event EventHandler OnOperation;
         public decimal Solde { get; protected set; }
 
         public Compte()
@@ -31,7 +32,11 @@ namespace Demo18_Event02.Models
 
         protected void OnOperationRaise(string operationName)
         {
-            OnOperation?.Invoke(operationName, Solde);
+            OperationEventArgs args = new OperationEventArgs()
+            {
+                OperationName = operationName
+            };
+            OnOperation?.Invoke(this, args);
         }
     }
 }
