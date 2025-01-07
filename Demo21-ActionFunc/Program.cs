@@ -35,6 +35,53 @@ namespace Demo21_ActionFunc
             {
                 Console.WriteLine($"{p.Name} : {p.Price} Euro(s)");
             }
+
+            Action<string> cw = Test01;
+            cw("Petit test...");
+        }
+
+        static void Test01(string message)
+        {
+            Console.WriteLine(message);
         }
     }
+
+    //Petit test Action Func
+
+    public delegate void Delegate01(string s, int i);
+    //Action<string, int>
+    
+    public delegate void Delegate02(bool b, int i, string s);
+    //Action<bool,int,string>
+
+    public delegate bool Delegate03(string s);
+    //Func<string,bool>
+
+    public delegate object Delegate04(object o);
+    //Func<object, object>
+
+    public delegate object Delegate05(object o, object o2);
+    //Func<object, object, object>
+
+    public delegate void Delegate06(int i, int i2, int i3);
+    //Action<int,int,int>
+
+    public delegate string Delegate07();
+    //Func<string>
+
+    public delegate void Delegate08();
+    //Action
+
+    public delegate double Delegate09(string s, int i);
+    //Func<string, int, double>
+
+    public delegate bool Delegate10<T>(T arg);
+    //Func<T,bool>
+
+
+    //public delegate bool Condition(Product p);
+    //Func<Product, bool>
+    //public delegate List<Product> Filtre(Condition condition);
+    //Func<Condition, List<Product>>
+    //Func<Func<Product, bool>, List<Product>>
 }
