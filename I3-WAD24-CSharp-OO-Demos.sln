@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo18-Event02", "Demo18-Ev
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo19-Genericite", "Demo19-Genericite\Demo19-Genericite.csproj", "{47801319-04FF-4D5B-8039-8DB8F25972BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo20-Genericite02", "Demo20-Genericite02\Demo20-Genericite02.csproj", "{BB8CC604-BC91-42D7-89B9-DF6C13D38328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo21-ActionFunc", "Demo21-ActionFunc\Demo21-ActionFunc.csproj", "{1FB105C6-9387-4A96-8927-ADF43BF84D96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{47801319-04FF-4D5B-8039-8DB8F25972BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47801319-04FF-4D5B-8039-8DB8F25972BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47801319-04FF-4D5B-8039-8DB8F25972BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB8CC604-BC91-42D7-89B9-DF6C13D38328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB8CC604-BC91-42D7-89B9-DF6C13D38328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB8CC604-BC91-42D7-89B9-DF6C13D38328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB8CC604-BC91-42D7-89B9-DF6C13D38328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FB105C6-9387-4A96-8927-ADF43BF84D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB105C6-9387-4A96-8927-ADF43BF84D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB105C6-9387-4A96-8927-ADF43BF84D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB105C6-9387-4A96-8927-ADF43BF84D96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
