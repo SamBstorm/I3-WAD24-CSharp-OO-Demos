@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Demo10_Abstraction.Models
 {
-    internal class HtmlWriter : IMessageWriter
+    internal class HtmlWriter : ConsoleWriter
     {
-        public void Write(string message)
+        public override void Write(string message)
         {
             Console.Write(@$"<!DOCTYPE html>
 <html>

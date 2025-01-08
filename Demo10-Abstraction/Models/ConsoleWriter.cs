@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Demo10_Abstraction.Models
 {
-    internal class ConsoleWriter : IMessageWriter
+    internal abstract class ConsoleWriter : IMessageWriter
     {
-        public virtual void Write(string message)
-        {
-            Console.Write(message);
-        }
+        public abstract void Write(string message);
     }
 }

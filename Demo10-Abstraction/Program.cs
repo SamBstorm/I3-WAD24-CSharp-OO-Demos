@@ -6,7 +6,7 @@ namespace Demo10_Abstraction
     {
         static void Main(string[] args)
         {
-            IMessageWriter writer = new HtmlWriter();
+            ConsoleWriter writer = new HtmlWriter();
 
             writer.Write("Hello");
 
