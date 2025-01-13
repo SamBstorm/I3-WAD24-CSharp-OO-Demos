@@ -35,15 +35,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo15-Delegate02", "Demo15
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo16-Delegate03", "Demo16-Delegate03\Demo16-Delegate03.csproj", "{D08A6779-7FCF-40A4-8439-AF5D248C3709}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo17-Event01", "Demo17-Event01\Demo17-Event01.csproj", "{DEDFF05D-39D8-40FA-8856-3DF3DE349BEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo17-Event01", "Demo17-Event01\Demo17-Event01.csproj", "{DEDFF05D-39D8-40FA-8856-3DF3DE349BEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo18-Event02", "Demo18-Event02\Demo18-Event02.csproj", "{24E312C5-3093-412A-895A-DDAFC5ABD0AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo18-Event02", "Demo18-Event02\Demo18-Event02.csproj", "{24E312C5-3093-412A-895A-DDAFC5ABD0AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo19-Genericite", "Demo19-Genericite\Demo19-Genericite.csproj", "{47801319-04FF-4D5B-8039-8DB8F25972BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo19-Genericite", "Demo19-Genericite\Demo19-Genericite.csproj", "{47801319-04FF-4D5B-8039-8DB8F25972BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo20-Genericite02", "Demo20-Genericite02\Demo20-Genericite02.csproj", "{BB8CC604-BC91-42D7-89B9-DF6C13D38328}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo20-Genericite02", "Demo20-Genericite02\Demo20-Genericite02.csproj", "{BB8CC604-BC91-42D7-89B9-DF6C13D38328}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo21-ActionFunc", "Demo21-ActionFunc\Demo21-ActionFunc.csproj", "{1FB105C6-9387-4A96-8927-ADF43BF84D96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo21-ActionFunc", "Demo21-ActionFunc\Demo21-ActionFunc.csproj", "{1FB105C6-9387-4A96-8927-ADF43BF84D96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo22-LinQ-TypeAnonyme", "Demo22-LinQ-TypeAnonyme\Demo22-LinQ-TypeAnonyme.csproj", "{5F64817E-054B-4B8A-97A4-199B7CFD4239}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{1FB105C6-9387-4A96-8927-ADF43BF84D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FB105C6-9387-4A96-8927-ADF43BF84D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FB105C6-9387-4A96-8927-ADF43BF84D96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F64817E-054B-4B8A-97A4-199B7CFD4239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F64817E-054B-4B8A-97A4-199B7CFD4239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F64817E-054B-4B8A-97A4-199B7CFD4239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F64817E-054B-4B8A-97A4-199B7CFD4239}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
